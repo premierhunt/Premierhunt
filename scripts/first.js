@@ -4,11 +4,8 @@ $(document).ready(function(){
 		$(".sidebar").slideToggle('fast');
 	});
 	window.onresize = function(events){
-		if($(window).width() >= 439){
+		if($(window).width() >451){
 			$(".sidebar").show();
-		}
-		else if($(window).width() >439){
-			$(".sidebar").hide();
 		}
 	}
 	
