@@ -115,11 +115,13 @@ background-color: #4a4a4a;
 		width:100%;
 		height: auto;
 		display: none;
-		
 	}
 	.content{
 		margin-left: 0px;
 		height: auto;
+	}
+	div#desg{
+		padding-top: 36px;
 	}
 }
 
