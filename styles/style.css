@@ -7,6 +7,7 @@
 }
 body{
 	font-family: 'Open Sans';
+	background-color: #D6EAC8;
 }
 
 header{
@@ -103,8 +104,6 @@ a.mobile {
 	color:#fff;
 	background-color: #000;
 	text-align: center;
-	padding:7px;
-	position: fixed;
 }
 a.mobile:active{
 background-color: #4a4a4a;
@@ -115,13 +114,18 @@ background-color: #4a4a4a;
 		width:100%;
 		height: auto;
 		display: none;
+		padding: 5px;
 	}
 	.content{
 		margin-left: 0px;
 		height: auto;
 	}
 	div#desg{
-		padding-top: 36px;
+		margin-top: 32px;
+	}
+	a.mobile{
+		padding:7px;
+	position: fixed;
 	}
 }
 
